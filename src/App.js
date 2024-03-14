@@ -26,7 +26,7 @@ function App() {
       <h1>loading...</h1>
     </section>
   }
-  const {company, dates, duties, title} = jobs
+  const {company, dates, duties, title} = jobs[value]
   return <h2>jobs</h2>
 }
 
