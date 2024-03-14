@@ -28,7 +28,9 @@ function App() {
   }
   const {company, dates, duties, title} = jobs[value]
   return <section className='section'>
-    
+    <div className="title">
+      <h2>expierence</h2>
+    </div>
   </section>
 }
 
