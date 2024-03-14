@@ -20,7 +20,14 @@ function App() {
     fetchJobs()
   }, [])
   
-  return <h2>tabs project setup</h2>
+
+  if(loading) {
+    return <section>
+      <h1>loading...</h1>
+    </section>
+  }
+
+  return <h2>jobs</h2>
 }
 
 export default App
