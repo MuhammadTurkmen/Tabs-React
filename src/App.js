@@ -39,6 +39,7 @@ function App() {
         <h3>{title}</h3>
         <h4>{company}</h4>
         <p className='job-date'>{dates}</p>
+        {duties.map((duty, index) => )}
       </article>
     </div>
   </section>
