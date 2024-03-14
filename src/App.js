@@ -42,6 +42,7 @@ function App() {
         {duties.map((duty, index) => {
           return <div key={index} className='job-desc'>
             <FaAngleDoubleRight className='job-icon'/>
+            <p>{duty}</p>
           </div>
         })}
       </article>
