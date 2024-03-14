@@ -45,7 +45,7 @@ function App() {
                     </button>
           })
         }
-      </div>
+      </div> 
       {/* job info */}
       <article className='job-info'>
         <h3>{title}</h3>
