@@ -30,7 +30,9 @@ function App() {
   return <section className='section'>
     <div className="title">
       <h2>expierence</h2>
+      <div className="underline"></div>
     </div>
+    
   </section>
 }
 
