@@ -15,6 +15,10 @@ function App() {
     setJobs(newJobs)
     setLoading(false)
   }
+
+  useEffect(() => {
+
+  }, [])
   
   return <h2>tabs project setup</h2>
 }
