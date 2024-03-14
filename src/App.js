@@ -32,7 +32,9 @@ function App() {
       <h2>expierence</h2>
       <div className="underline"></div>
     </div>
-    
+    <div className="jobs-center">
+      {/* btn container */}
+    </div>
   </section>
 }
 
