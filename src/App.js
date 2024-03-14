@@ -17,7 +17,7 @@ function App() {
   }
 
   useEffect(() => {
-
+    fetchJobs()
   }, [])
   
   return <h2>tabs project setup</h2>
