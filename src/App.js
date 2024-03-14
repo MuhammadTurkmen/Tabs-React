@@ -22,7 +22,7 @@ function App() {
   
 
   if(loading) {
-    return <section>
+    return <section className='section loading'>
       <h1>loading...</h1>
     </section>
   }
