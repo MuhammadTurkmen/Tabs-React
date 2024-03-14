@@ -37,7 +37,9 @@ function App() {
       <div className="btn-container">
         {
           jobs.map((item, index) => {
-            
+            return <button>
+              {item.company}
+            </button>
           })
         }
       </div>
